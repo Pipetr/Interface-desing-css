@@ -1,0 +1,41 @@
+/** Step one **/
+/** Step two **/
+h1, h2, h3 {
+    font-family: "Ubuntu Sans", sans-serif;
+}
+/** Step three **/
+h1 {
+    font-size: 46px;
+    letter-spacing: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #1957b3;
+}
+/** Step four **/
+p, a, ul {
+    font-family: "Rubik", sans-serif;
+}
+/** Step five **/
+span {
+    font-size: 3em;
+    font-weight: 900;
+    color: #f13d3d;
+}
+/** Step six **/
+h3 {
+    font-size: 3.5em;
+    color: #1957b3;
+    
+    text-shadow: 4px 3px 4px rgba(0, 0, 0, .5);
+}
+
+/** Addtional work **/
+a {
+    color: #1957b3;
+    text-decoration: none;
+}
+
+p:first-line {
+    font-weight: 900;
+    font-style: italic;
+}
