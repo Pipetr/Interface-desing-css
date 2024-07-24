@@ -32,13 +32,33 @@
     <div>
       <a href="index.html"><img src="./img/chocoramo-logo.png" alt="logo"></a>
     </div>
-    <nav>
+    <!-- Desktop nav -->
+    <nav class="desktop-nav">
       <menu>
         <li><a class="anchor" href="#sec1">Section 1</a></li>
         <li><a class="anchor" href="#sec2">Section 2</a></li>
         <li><a class="anchor" href="#sec3">Section 3</a></li>
       </menu>
     </nav>
+    <!-- Mobile Nav -->
+    <div class="mobile-nav">
+      <input id="burger" type="checkbox">
+      <label for="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+      </label>
+      <nav>
+          <div>
+              <a href="index.html"><img src="./img/chocoramo-logo.png" alt="header logo"></a>
+          </div>
+          <menu>
+            <li><a class="anchor" href="#sec1">Section 1</a></li>
+            <li><a class="anchor" href="#sec2">Section 2</a></li>
+            <li><a class="anchor" href="#sec3">Section 3</a></li>
+          </menu>
+      </nav>
+  </div>
   </header>
   <section class="choco-masthead">
     <div class="mask">
@@ -49,19 +69,9 @@
   <main>
     <section id="sec1">
       <div>
-        <h2 class="slide-right">Title</h2>
-        <p class="slide-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Felis bibendum ut tristique et egestas. At auctor urna nunc id cursus.
-          Viverra
-          aliquet eget sit amet tellus cras adipiscing enim eu.</p>
-        <p class="slide-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Felis bibendum ut tristique et egestas. At auctor urna nunc id cursus.
-          Viverra
-          aliquet eget sit amet tellus cras adipiscing enim eu. Scelerisque varius morbi enim nunc faucibus. Sed velit
-          dignissim sodales ut eu. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. At imperdiet
-          dui accumsan sit amet nulla. Adipiscing commodo elit at imperdiet. Non enim praesent elementum facilisis leo
-          vel
-          fringilla.</p>
+        <h2 class="slide-right">What is?</h2>
+        <p class="slide-right">The famous chocolate-covered cake had humble beginnings as a dessert that Ana Luisa Camacho made for her husband Rafael Molano, who worked at the Bavaria company, as part of their daily elevenses. Its popularity grew when Rafael's colleagues started asking him to sell the same dessert to them for a few pesos in the dining room of the company.</p>
+        <p class="slide-right">Chocoramo, the delicious chocolate-covered cake with its unmistakable orange wrapper, has captured the hearts of Colombians and has made a mark on the country's culinary history.</p>
       </div>
       <div>
         <img class="slide-right" src="./img/choco-1.png" alt="one">
@@ -72,43 +82,50 @@
         <img class="slide-down" src="./img/bar-choco.png" alt="two">
       </div>
       <div>
-        <h2 class="slide-down">Title</h2>
+        <h2 class="slide-down">The little brother?</h2>
         <p class="slide-down">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Felis bibendum ut tristique et egestas. At auctor urna nunc id cursus. Viverra aliquet eget sit
-          amet tellus cras adipiscing enim eu. Scelerisque varius morbi enim nunc faucibus. Sed velit dignissim sodales
-          ut
-          eu. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. At imperdiet dui accumsan sit amet
-          nulla. Adipiscing commodo elit at imperdiet. Non enim praesent elementum facilisis leo vel fringilla.
+          Yes! it is called <span>"Barrita Chocoramo"</span> and it is a smaller version of the original Chocoramo. It is a snack that is perfect for a quick bite or to satisfy a craving. It is also a great option for kids' lunchboxes or as a snack for school or work.
+          The principle is the same, a chocolate-covered cake, but in a smaller size and in the middle, it has a layer of blackberry and strawberry jam.
         </p>
       </div>
 
     </section>
+    <div class="enjoy slide-up">
+      <div>
+        <h2 class="slide-up">How to enjoy it?</h2>
+        <p class="slide-up">There are many ways to enjoy a Chocoramo. You can eat it as a snack, as a dessert, or as a treat. You can also enjoy it with a cup of coffee, a glass of milk, or
+          a cup of hot chocolate. You can eat it on its own or you can use it as an ingredient in other recipes. You can also enjoy it with friends, family, or on your own. The possibilities are endless!</p>
+        <p>Was such of success of the <span>Chocoramo</span> that the company "Ramo" launch a variety of products in association with otoher companys to release products in USA and <span>Kellog's cereral</span> and even the famouse <span>McFlurry</span> with Chocoramo flavour </p>
+      </div>
+      <div>
+        <img src="./img/choco-hist.png" alt="">
+      </div>
+    </div>
     <section id="sec3">
-
+      
       <div class="zoom-in slide-up">
         <figure>
           <img src="./img/choco-usa.png" alt="eight">
         </figure>
-        <span>Zoom In</span>
+        <span id="usa">Chocoramo conquering USA market</span>
       </div>
       <div class="zoom-out slide-up">
         <figure>
           <img src="./img/Choco-mcflurry.png" alt="ten">
         </figure>
-        <span>Zoom Out</span>
+        <span>Famous McFlurry with Chocoramo flavour</span>
       </div>
       <div class="rotate-zoom slide-up">
         <figure>
           <img src="./img/chocoramo.png" alt="five">
         </figure>
-        <span>Rotate & Zoom In</span>
+        <span>Actual Chocoramo</span>
       </div>
       <div class="rotate-zoom-out slide-up">
         <figure>
           <img src="./img/Chocoramo-Kellogg’s-Cereal.png" alt="one">
         </figure>
-        <span>Rotate & Zoom Out</span>
+        <span>Chocoramo Kellog's cereal</span>
       </div>
     </section>
 
