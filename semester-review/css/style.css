@@ -1,0 +1,144 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+/*Exercise two*/
+/*Add left border lines to the menu*/
+
+menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+menu li {
+    border-left: 1px solid #000;
+    padding: 0 10px;
+}
+
+menu li:first-child {
+    border-left: none;
+}
+
+menu li a {
+    text-decoration: none;
+}
+
+/* Exercise three*/
+/*Using the font provided, add the font to all the h
+elements*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Yellowrabbit' , sans-serif;
+}
+
+/* Exercise four*/
+/*Targeting section four, change the color of the
+font and background image to create contrast.*/
+.sec4{
+    color: #00fbe6;
+    background-color: rgb(191, 25, 31);
+}
+
+/* Exercise five*/
+/*Using the position property, make the header stay
+at the top of the viewport while scrolling.*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #00fbe6;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 110px;
+    z-index: 9999;
+    font-size: 3em;
+}
+
+.sec1 {
+    margin-top: 110px;
+    height: 100vh;
+    background-color: #b6adc5;
+    color: #fff;
+    font-size: 4em;
+    text-align: center;
+}
+
+/* Exercise six*/
+/*
+• Add a background-color to the second section.
+• Using the clip-path property, angle the bottom
+of the second section.*/
+.sec2 {
+    background-color: #5c00fb;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+}
+
+/* Exercise seven*/
+/*Create a simple call to action, you will need to add
+both the HTML and CSS for this exercise.*/
+.sec1 .cta {
+    background-color: #3f3e4b;
+    color: #fff;
+    padding: 10px 60px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: 50px;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+
+.sec1 .cta:hover {
+    background-color: #00fbe6;;
+}
+
+/* Exercise eight*/
+/*Change the background color of the second
+section when viewed on all viewports that are less
+than 550px.*/
+@media (max-width: 550px) {
+    .sec2 {
+        background-color: #fb00b8;
+    }
+}
+
+/* Exercise nine*/
+/*For this exercise, add an enhancement of your
+choosing to any element already added to the
+HTML document.*/
+.sec3 {
+    background-color: #caebd7;
+    color: #ea1515;
+    font-size: 4em;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+
+.sec3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    transition: all 0.8s ease-in-out;
+}
+
+.sec3:hover{
+    background-color: #ea1515;
+    color: #caebd7;
+}
